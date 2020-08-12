@@ -39,13 +39,15 @@ npm i svelte-image-loader
 
   ...
 
-  :global(.image-loader) {
+  :global(.svelte-image-loader) {
   	background-color: $color-icon-secondary;
   }
 
   ...
 </style>
 ```
+
+Also you can initially call `initImageLoader` function to set custom class name (other than `.svelte-image-loader`).
 
 ## API
 

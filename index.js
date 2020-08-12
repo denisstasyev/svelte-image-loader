@@ -1,4 +1,8 @@
-const className = 'image-loader'
+let className = 'svelte-image-loader'
+
+export function initImageLoader(customClassName) {
+	className = customClassName
+}
 
 const setLoadingStyles = (node, borderRadius) => {
 	if (borderRadius) {
