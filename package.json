@@ -1,0 +1,25 @@
+{
+  "name": "svelte-image-loader",
+  "version": "1.0.3",
+  "description": "A neat preloader for images for Svelte 3",
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/denisstasyev/svelte-image-loader.git"
+  },
+  "keywords": [
+    "svelte",
+    "image",
+    "loader",
+    "action"
+  ],
+  "author": "Denis Stasyev",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/denisstasyev/svelte-image-loader/issues"
+  },
+  "homepage": "https://github.com/denisstasyev/svelte-image-loader#readme"
+}
