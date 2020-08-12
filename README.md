@@ -6,7 +6,7 @@ Svelte action to increase the level of UX by neatly preloading images (icons)
 
 ![example](https://user-images.githubusercontent.com/25938785/90069131-846ea580-dcfa-11ea-9ff5-0844e65af73f.gif)
 
-## Features
+## :rocket: Features
 
 This is Svelte's action to handle the `error` and`load` events of images correctly with filling it with color.
 
