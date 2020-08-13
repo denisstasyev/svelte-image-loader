@@ -1,6 +1,6 @@
 {
   "name": "svelte-image-loader",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "A neat preloader for images for Svelte 3",
   "main": "index.js",
   "files": [

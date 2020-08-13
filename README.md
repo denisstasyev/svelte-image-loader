@@ -14,6 +14,8 @@ This is Svelte's action to handle the `error` and`load` events of images correct
 - Light size (zero-dependencies :fire: :boom:)
 - Any custom CSS for loading/error state
 
+P.S. It's recommended to use this package only for icons (small images). If you want to achieve the best UX for middle or large images, use [svelte-skeleton](https://github.com/denisstasyev/svelte-skeleton) ([NPM package](https://www.npmjs.com/package/svelte-skeleton)).
+
 ## Install
 
 ```bash
@@ -53,9 +55,9 @@ Also you can initially call `initImageLoader` function to set custom class name 
 
 ### Parameters
 
-| Name         | Type   | Default | Description                                |
-| ------------ | ------ | ------- | ------------------------------------------ |
-| borderRadius | string | `''`    | CSS `border-radius` of loading/error state |
+| Name         | Type   | Default      | Description                                |
+| ------------ | ------ | ------------ | ------------------------------------------ |
+| borderRadius | string | empty string | CSS `border-radius` of loading/error state |
 
 ## License
 
